@@ -57,6 +57,15 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>ibsplc-djoca-ws</id>
+            <name>ibsplc-djoca-ws</name>
+            <url>https://ibsplc-306472407007.d.codeartifact.ap-south-1.amazonaws.com/maven/djoca-ws/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
